@@ -18,14 +18,29 @@ html, body {
     border-bottom: 3px solid #777777;
     background-color:#ffffff;
     padding-top: 50px;
+    padding-bottom: 0px;
 }
 
 .item-sty{
     font-size: 18px;
+    color: #777777;
 }
 
+#name-font{
+    color: white;
+}
+#about {
+    color:#777777;
+    border-left: 1px solid #777777
+}
+
+#contact{
+    color: #777777;
+    border-right: 1px solid #777777;
+}
 
 #portfolio {
+    color: #777777;
     border-right: 1px solid #777777;
     border-left: 1px solid #777777;
 }
