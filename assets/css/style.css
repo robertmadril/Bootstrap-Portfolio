@@ -1,28 +1,40 @@
 html, body {
-    margin: 0;
-    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
-    background-image: url('../images/bananas.png');
-    overflow: scroll;
+        background-image: url('../images/bananas.png');
 }
 
 /*Navigation Bar*/
-.nav-bar {
-    height: 100px;
-    border-bottom: 3px solid #777777;
-    background-color:#ffffff;
+.top-bkgrd{
+        border-bottom: 3px solid #777777;
+        background-color:#ffffff;
+    }
+
+.main-name{
+    background-color: #4aaaa5;
+    padding: 10px 20px 10px 20px;
+    position: absolute;
+    bottom: 0;
 }
 
-.nav-bar-name {
-    background-color: #4aaaa5;
+.text-name {
+    color: white;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.main-nav-sty {
     height: 50px;
     margin-top: 50px;
     padding-top: 5px;
     text-align: center;
-    color: white;
-    font-size: 35px;
+    font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.bkgrd{
+    background-color:#ffffff;
+    margin-top: 50px;
 }
 
 .portfolio {
@@ -46,8 +58,7 @@ html, body {
     background-color: #666666;
     height: 100px;
     padding-top: 10px;
-    text-align: center;
-
+    color: white;
 }
 
 
