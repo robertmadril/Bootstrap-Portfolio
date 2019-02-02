@@ -1,55 +1,44 @@
 html, body {
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
-        background-image: url('../images/bananas.png');
+    background-image: url('../images/bananas.png');
 }
 
 /*Navigation Bar*/
-.top-bkgrd{
-        border-bottom: 3px solid #777777;
-        background-color:#ffffff;
-    }
 
-.main-name{
+.main-nav-name{
     background-color: #4aaaa5;
     padding: 10px 20px 10px 20px;
-    position: absolute;
-    bottom: 0;
-}
-
-.text-name {
-    color: white;
-    font-size: 35px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 38px;
 }
 
 .main-nav-sty {
-    height: 50px;
-    margin-top: 50px;
-    padding-top: 5px;
-    text-align: center;
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.bkgrd{
+    border-bottom: 3px solid #777777;
     background-color:#ffffff;
-    margin-top: 50px;
+    padding-top: 50px;
 }
 
-.portfolio {
+.item-sty{
+    font-size: 18px;
+}
+
+
+#portfolio {
     border-right: 1px solid #777777;
     border-left: 1px solid #777777;
 }
 
-.nav-bar-button { 
-    height: 50px;
-    margin-top:60px;
+/*Main Content Area*/
+
+.content-bkgrd{
+    background-color:#ffffff;
 }
 
-/*Index Main Content*/
-.index-main {
-    height: 500px;
+
+.head-sty{
+    border-bottom: 2px solid #777777;
 }
 
 /*Footer*/
