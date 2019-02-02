@@ -31,24 +31,22 @@ html, body {
 }
 #about {
     color:#777777;
-    border-left: 1px solid #777777
 }
 
 #contact{
     color: #777777;
-    border-right: 1px solid #777777;
 }
 
 #portfolio {
     color: #777777;
-    border-right: 1px solid #777777;
-    border-left: 1px solid #777777;
+
 }
 
 /*Main Content Area*/
 
 .content-bkgrd{
     background-color:#ffffff;
+    padding-bottom: 100px;
 }
 
 
@@ -56,11 +54,24 @@ html, body {
     border-bottom: 2px solid #777777;
 }
 
+/*porfolio*/
+
+.img-style{
+    width: 200px;
+}
+.text-overlay {
+    position: absolute;
+    top: 120px;
+    width: 200px;
+    background:#4aaaa5;
+    color: #fff;
+    text-align: center;
+}
 /*Footer*/
 .foot-main {
     border-top: 3px solid #4aaaa5;
     background-color: #666666;
-    height: 100px;
+    height: 75px;
     padding-top: 10px;
     color: white;
 }
